@@ -5,11 +5,11 @@
  wysyłanie danych do clienta
 **********************************************/
 
-#include "libs/Wire/Wire.h"
-#include "libs/SPI/SPI.h"
-#include "libs/Adafruit_Sensor.h"
-#include "libs/Adafruit_BMP280.h"
-#include "libs/ESP8266WiFi.h"
+#include "lib/Wire.h"
+#include "lib/SPI.h"
+#include "lib/Adafruit_Sensor.h"
+#include "lib/Adafruit_BMP280.h"
+#include "ESP8266WiFi/src/ESP8266WiFi.h"
 
 #define BMP_SCK 13
 #define BMP_MISO 12
